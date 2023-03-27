@@ -69,4 +69,3 @@ kemudian login pada browser. Setelah itu, jalankan service HDFS
 ![](ss/ss17.png)
 ![](ss/ss18.png)
 
-Sukses menampilkan list file pada folder /tmp (temporary file)
