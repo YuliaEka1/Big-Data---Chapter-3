@@ -65,4 +65,5 @@ kemudian login pada browser. Setelah itu, jalankan service HDFS
 2. Uji coba <code> SystemCommandsReturnCode.scala </code>
 ![](ss/ss17.png)
 ![](ss/ss18.png)
+
 Sukses menampilkan list file pada folder /tmp (temporary file)
