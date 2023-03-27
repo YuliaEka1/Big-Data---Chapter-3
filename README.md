@@ -8,8 +8,9 @@ NIM : 2041720064
 
 ## Langkah-langkah praktikum
 
-### Uji Coba PySpark
-Menjalankan service dari pyspark terlebih dahulu dengan perintah 
+### I. Uji Coba PySpark
+
+Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 <code>cd spark-2.0.0-bin-hadoop2.7</code>
 
@@ -41,8 +42,10 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah
 ![](ss/ss10_1.png)
 
 
-### Uji Coba Scala
-Menjalankan service dari sparkshell terlebih dahulu dengan perintah
+### II. Uji Coba Scala
+
+Menjalankan service dari sparkshell terlebih dahulu dengan perintah :
+
 <code>cd spark-2.0.0-bin-hadoop2.7</code>
 
 <code>bin/spark-shell</code>
