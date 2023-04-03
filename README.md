@@ -18,7 +18,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 ![](ss/ss1.png)
 
-**1. Uji coba  <code> Accumulator.py </code>
+1. Uji coba  <code> Accumulator.py </code>
 ![](ss/ss2.png)
 
 **sc** : singkatan dari SparkContext, ini adalah objek utama dalam pemrograman dengan Apache Spark. Ini digunakan untuk menginisialisasi aplikasi Spark dan membuat RDD (Resilient Distributed Datasets) yang mendukung komputasi paralel.
@@ -31,7 +31,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 **value** : tipe data dasar dalam Spark. Ini mewakili nilai tunggal dan dapat berupa tipe data apapun seperti integer, float, string, boolean, atau objek Python. Ini sering digunakan sebagai argument dalam method yang membutuhkan input data seperti map atau reduceByKey.
 
-**2. Uji coba <code> BroadCast.py </code>
+2. Uji coba <code> BroadCast.py </code>
 ![](ss/ss3.png)
 
 **broadcast** : sebuah fungsi dalam Spark yang digunakan untuk mendistribusikan variabel secara efisien ke setiap node dalam sebuah cluster, sehingga setiap node dapat mengakses variabel tersebut dengan cepat tanpa perlu menyalinnya berkali-kali.
@@ -41,7 +41,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 **range**: sebuah fungsi dalam bahasa pemrograman Python yang digunakan untuk menghasilkan deret bilangan bulat secara berurutan, dengan argumen yang dapat ditentukan untuk memulai, mengakhiri, dan menentukan langkah antar bilangan. Deret bilangan ini berguna dalam banyak skenario pemrograman, seperti pengulangan for-loop.
 
 
-**3. Uji coba <code> LogAnalytics.py </code>
+3. Uji coba <code> LogAnalytics.py </code>
 ![](ss/ss4.png)
 ![](ss/ss5.png)
 
@@ -53,7 +53,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 **count** : sebuah fungsi dalam Spark yang digunakan untuk menghitung jumlah elemen dalam sebuah RDD dan mengembalikan hasilnya sebagai bilangan bulat.
 
-**4. Uji coba <code> PairRDD.py </code>
+4. Uji coba <code> PairRDD.py </code>
 ![](ss/ss6.png)
 
 **map** : sebuah fungsi dalam Spark yang digunakan untuk melakukan transformasi pada setiap elemen dalam RDD dengan menggunakan sebuah fungsi yang diberikan sebagai argumen. Fungsi ini mengembalikan RDD baru yang berisi hasil transformasi tersebut.
@@ -66,7 +66,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 **values** : sebuah metode pada tipe data dictionary dalam bahasa pemrograman Python yang mengembalikan sebuah list yang berisi semua nilai (values) dalam dictionary tersebut.
 
-**5. Uji coba <code> UnderstandingRDD.py </code>
+5. Uji coba <code> UnderstandingRDD.py </code>
 ![](ss/ss7.png)
 ![](ss/ss8.png)
 ![](ss/ss9.png)
@@ -83,7 +83,7 @@ Menjalankan service dari pyspark terlebih dahulu dengan perintah :
 
 **toDebugString** : sebuah metode dalam Spark yang digunakan untuk mengambil string representasi dari RDD yang berisi informasi tentang partisi-partisi dalam RDD, lokasi masing-masing partisi, dan transformasi yang telah dilakukan pada RDD tersebut.
 
-**6. Uji coba <code> WordCount.py </code>
+6. Uji coba <code> WordCount.py </code>
 ![](ss/ss10.png)
 ![](ss/ss10_1.png)
 
